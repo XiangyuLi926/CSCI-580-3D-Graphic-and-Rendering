@@ -1,0 +1,122 @@
+﻿生成启动时间为 5/3/15 4:20:08 PM。
+     1>项目“\\psf\Home\Desktop\580 Final\HW5 2\CS580HW5.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Debug\CS580HW5.pch" /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afx.h(33) : 参见“MBCS_Support_Deprecated_In_MFC”的声明
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug\CS580HW5.pch" /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Application.cpp Application5.cpp CS580HW.cpp CS580HWDoc.cpp CS580HWView.cpp disp.cpp MainFrm.cpp rend.cpp RotateDlg.cpp ScaleDlg.cpp tex_fun.cpp TranslateDlg.cpp
+         TranslateDlg.cpp
+         tex_fun.cpp
+     1>\\psf\home\desktop\580 final\hw5 2\tex_fun.cpp(23): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>\\psf\home\desktop\580 final\hw5 2\tex_fun.cpp(28): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>\\psf\home\desktop\580 final\hw5 2\tex_fun.cpp(37): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>\\psf\home\desktop\580 final\hw5 2\tex_fun.cpp(38): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>\\psf\home\desktop\580 final\hw5 2\tex_fun.cpp(39): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>\\psf\home\desktop\580 final\hw5 2\tex_fun.cpp(19): warning C4101: “j”: 未引用的局部变量
+     1>\\psf\home\desktop\580 final\hw5 2\tex_fun.cpp(118): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>\\psf\home\desktop\580 final\hw5 2\tex_fun.cpp(119): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>\\psf\home\desktop\580 final\hw5 2\tex_fun.cpp(120): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>\\psf\home\desktop\580 final\hw5 2\tex_fun.cpp(124): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>\\psf\home\desktop\580 final\hw5 2\tex_fun.cpp(125): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>\\psf\home\desktop\580 final\hw5 2\tex_fun.cpp(126): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         ScaleDlg.cpp
+         RotateDlg.cpp
+         rend.cpp
+     1>\\psf\home\desktop\580 final\hw5 2\rend.cpp(45): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>\\psf\home\desktop\580 final\hw5 2\rend.cpp(68): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>\\psf\home\desktop\580 final\hw5 2\rend.cpp(91): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>\\psf\home\desktop\580 final\hw5 2\rend.cpp(201): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>\\psf\home\desktop\580 final\hw5 2\rend.cpp(202): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>\\psf\home\desktop\580 final\hw5 2\rend.cpp(203): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>\\psf\home\desktop\580 final\hw5 2\rend.cpp(204): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>\\psf\home\desktop\580 final\hw5 2\rend.cpp(205): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>\\psf\home\desktop\580 final\hw5 2\rend.cpp(215): warning C4305: “初始化”: 从“double”到“float”截断
+     1>\\psf\home\desktop\580 final\hw5 2\rend.cpp(216): warning C4305: “初始化”: 从“double”到“float”截断
+     1>\\psf\home\desktop\580 final\hw5 2\rend.cpp(217): warning C4305: “初始化”: 从“double”到“float”截断
+     1>\\psf\home\desktop\580 final\hw5 2\rend.cpp(239): warning C4154: 删除数组表达式；转换到提供的指针
+     1>\\psf\home\desktop\580 final\hw5 2\rend.cpp(240): warning C4154: 删除数组表达式；转换到提供的指针
+     1>\\psf\home\desktop\580 final\hw5 2\rend.cpp(241): warning C4154: 删除数组表达式；转换到提供的指针
+     1>\\psf\home\desktop\580 final\hw5 2\rend.cpp(242): warning C4154: 删除数组表达式；转换到提供的指针
+     1>\\psf\home\desktop\580 final\hw5 2\rend.cpp(243): warning C4154: 删除数组表达式；转换到提供的指针
+     1>\\psf\home\desktop\580 final\hw5 2\rend.cpp(249): warning C4154: 删除数组表达式；转换到提供的指针
+     1>\\psf\home\desktop\580 final\hw5 2\rend.cpp(250): warning C4154: 删除数组表达式；转换到提供的指针
+     1>\\psf\home\desktop\580 final\hw5 2\rend.cpp(252): warning C4154: 删除数组表达式；转换到提供的指针
+     1>\\psf\home\desktop\580 final\hw5 2\rend.cpp(253): warning C4154: 删除数组表达式；转换到提供的指针
+     1>\\psf\home\desktop\580 final\hw5 2\rend.cpp(254): warning C4154: 删除数组表达式；转换到提供的指针
+     1>\\psf\home\desktop\580 final\hw5 2\rend.cpp(255): warning C4154: 删除数组表达式；转换到提供的指针
+     1>\\psf\home\desktop\580 final\hw5 2\rend.cpp(258): warning C4154: 删除数组表达式；转换到提供的指针
+     1>\\psf\home\desktop\580 final\hw5 2\rend.cpp(259): warning C4154: 删除数组表达式；转换到提供的指针
+     1>\\psf\home\desktop\580 final\hw5 2\rend.cpp(261): warning C4154: 删除数组表达式；转换到提供的指针
+     1>\\psf\home\desktop\580 final\hw5 2\rend.cpp(262): warning C4154: 删除数组表达式；转换到提供的指针
+     1>\\psf\home\desktop\580 final\hw5 2\rend.cpp(263): warning C4154: 删除数组表达式；转换到提供的指针
+     1>\\psf\home\desktop\580 final\hw5 2\rend.cpp(264): warning C4154: 删除数组表达式；转换到提供的指针
+     1>\\psf\home\desktop\580 final\hw5 2\rend.cpp(265): warning C4154: 删除数组表达式；转换到提供的指针
+     1>\\psf\home\desktop\580 final\hw5 2\rend.cpp(266): warning C4154: 删除数组表达式；转换到提供的指针
+     1>\\psf\home\desktop\580 final\hw5 2\rend.cpp(360): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>\\psf\home\desktop\580 final\hw5 2\rend.cpp(408): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>\\psf\home\desktop\580 final\hw5 2\rend.cpp(655): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>\\psf\home\desktop\580 final\hw5 2\rend.cpp(656): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>\\psf\home\desktop\580 final\hw5 2\rend.cpp(657): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>\\psf\home\desktop\580 final\hw5 2\rend.cpp(658): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>\\psf\home\desktop\580 final\hw5 2\rend.cpp(1128): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>\\psf\home\desktop\580 final\hw5 2\rend.cpp(1217): warning C4244: “参数”: 从“float”转换到“GzDepth”，可能丢失数据
+         MainFrm.cpp
+         disp.cpp
+         CS580HWView.cpp
+         CS580HWDoc.cpp
+         CS580HW.cpp
+     1>\\psf\home\desktop\580 final\hw5 2\cs580hw.cpp(58): warning C4996: 'CWinApp::Enable3dControls': CWinApp::Enable3dControls is no longer needed. You should remove this call.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h(5178) : 参见“CWinApp::Enable3dControls”的声明
+         Application5.cpp
+     1>\\psf\home\desktop\580 final\hw5 2\application5.cpp(120): warning C4305: “=”: 从“double”到“float”截断
+     1>\\psf\home\desktop\580 final\hw5 2\application5.cpp(130): warning C4305: “初始化”: 从“double”到“float”截断
+     1>\\psf\home\desktop\580 final\hw5 2\application5.cpp(131): warning C4305: “初始化”: 从“double”到“float”截断
+     1>\\psf\home\desktop\580 final\hw5 2\application5.cpp(132): warning C4305: “初始化”: 从“double”到“float”截断
+     1>\\psf\home\desktop\580 final\hw5 2\application5.cpp(136): warning C4305: “初始化”: 从“double”到“float”截断
+     1>\\psf\home\desktop\580 final\hw5 2\application5.cpp(139): warning C4305: “初始化”: 从“double”到“float”截断
+     1>\\psf\home\desktop\580 final\hw5 2\application5.cpp(140): warning C4305: “初始化”: 从“double”到“float”截断
+     1>\\psf\home\desktop\580 final\hw5 2\application5.cpp(141): warning C4305: “初始化”: 从“double”到“float”截断
+     1>\\psf\home\desktop\580 final\hw5 2\application5.cpp(54): warning C4101: “shaderType”: 未引用的局部变量
+     1>\\psf\home\desktop\580 final\hw5 2\application5.cpp(227): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>\\psf\home\desktop\580 final\hw5 2\application5.cpp(234): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>\\psf\home\desktop\580 final\hw5 2\application5.cpp(244): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>\\psf\home\desktop\580 final\hw5 2\application5.cpp(250): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>\\psf\home\desktop\580 final\hw5 2\application5.cpp(256): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>\\psf\home\desktop\580 final\hw5 2\application5.cpp(262): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+         Application.cpp
+         正在生成代码...
+     1>\\psf\home\desktop\580 final\hw5 2\rend.cpp(648): warning C4715: “Gz_Normalize_Vector”: 不是所有的控件路径都返回值
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /D _AFXDLL /l"0x0409" /nologo /fo".\Debug\CS580HW.res" CS580HW.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\CS580HW5.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:".\Debug\CS580HW5.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\CS580HW5.lib" /MACHINE:X86 /SAFESEH .\Debug\CS580HW.res
+         .\Debug\Application.obj
+         .\Debug\Application5.obj
+         .\Debug\CS580HW.obj
+         .\Debug\CS580HWDoc.obj
+         .\Debug\CS580HWView.obj
+         .\Debug\disp.obj
+         .\Debug\MainFrm.obj
+         .\Debug\rend.obj
+         .\Debug\RotateDlg.obj
+         .\Debug\ScaleDlg.obj
+         .\Debug\StdAfx.obj
+         .\Debug\tex_fun.obj
+         .\Debug\TranslateDlg.obj
+     1>Application.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+         CS580HW5.vcxproj -> \\psf\Home\Desktop\580 Final\HW5 2\.\Debug\CS580HW5.exe
+     1>已完成生成项目“\\psf\Home\Desktop\580 Final\HW5 2\CS580HW5.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:54.09

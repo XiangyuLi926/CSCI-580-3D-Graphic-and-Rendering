@@ -1,0 +1,28 @@
+﻿生成启动时间为 2015/2/11 23:07:40。
+     1>项目“C:\Users\Xiang\Desktop\580\HW2\CS580HW2.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug\CS580HW2.pch" /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt rend.cpp
+         rend.cpp
+     1>c:\users\xiang\desktop\580\hw2\rend.cpp(171): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>c:\users\xiang\desktop\580\hw2\rend.cpp(172): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>c:\users\xiang\desktop\580\hw2\rend.cpp(174): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>c:\users\xiang\desktop\580\hw2\rend.cpp(175): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>c:\users\xiang\desktop\580\hw2\rend.cpp(218): warning C4244: “参数”: 从“float”转换到“GzDepth”，可能丢失数据
+     1>c:\users\xiang\desktop\580\hw2\rend.cpp(231): warning C4244: “参数”: 从“float”转换到“GzDepth”，可能丢失数据
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\CS580HW2.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:".\Debug\CS580HW2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\CS580HW2.lib" /MACHINE:X86 /SAFESEH .\Debug\CS580HW.res
+         .\Debug\Application.obj
+         .\Debug\Application2.obj
+         .\Debug\CS580HW.obj
+         .\Debug\CS580HWDoc.obj
+         .\Debug\CS580HWView.obj
+         .\Debug\disp.obj
+         .\Debug\MainFrm.obj
+         .\Debug\rend.obj
+         .\Debug\StdAfx.obj
+         CS580HW2.vcxproj -> C:\Users\Xiang\Desktop\580\HW2\.\Debug\CS580HW2.exe
+     1>已完成生成项目“C:\Users\Xiang\Desktop\580\HW2\CS580HW2.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.95
